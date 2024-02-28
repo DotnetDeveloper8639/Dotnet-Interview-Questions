@@ -1,0 +1,39 @@
+What are the four fundamental principles of Object-Oriented Programming?
+
+Explain encapsulation and how it is implemented in C#.
+
+What is inheritance, and how does it promote code reuse? Can you provide an example of inheritance in C#?
+
+Discuss polymorphism and its types in C#. Provide an example of each type.
+
+Explain the difference between method overloading and method overriding. When would you use each in C#?
+
+What is an abstract class, and how is it different from an interface in C#? When would you use one over the other?
+
+Discuss the concept of interfaces in C#. How are they different from abstract classes?
+
+What is the purpose of the base keyword in C#? Provide an example where it's used.
+
+Explain the difference between value types and reference types in C#. Give examples of each.
+
+What is the difference between a struct and a class in C#? When would you use a struct over a class?
+
+What are access modifiers in C#? List and explain the different types.
+
+Explain the concept of method hiding in C#. How is it different from method overriding?
+
+Discuss the usage of the sealed keyword in C#. When and why would you use it?
+
+What is a constructor? Explain the different types of constructors available in C#.
+
+Discuss the concept of composition in C#. How does it differ from inheritance?
+
+What is a delegate in C#? How is it different from an interface?
+
+Explain the purpose and usage of events in C#.
+
+Discuss the difference between IEnumerable and IEnumerator in C#.
+
+Explain the concept of generics in C#. Provide an example of a generic class or method.
+
+What is the purpose of the using statement in C#? How does it differ from Dispose() method?
