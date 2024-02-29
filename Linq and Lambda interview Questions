@@ -1,0 +1,20 @@
+Explain the difference between LINQ to Objects, LINQ to SQL, and LINQ to Entities.
+What are deferred execution and immediate execution in LINQ? Provide examples of each.
+How does lazy loading relate to LINQ? Can you explain how it works and potential pitfalls?
+Discuss the differences between IQueryable and IEnumerable interfaces in LINQ. When would you use each?
+What is method chaining in LINQ, and how does it affect query execution?
+How do you handle complex joins and groupings in LINQ queries? Can you provide examples?
+Explain what query optimization techniques you use in LINQ to improve performance.
+Discuss the role of anonymous types in LINQ queries. Provide an example of when you would use them.
+Explain the concept of expression trees in LINQ. How are they used internally, and what benefits do they provide?
+How do you handle paging and sorting in LINQ queries efficiently?
+Discuss the concept of projections in LINQ and their importance in optimizing query performance.
+What are some common anti-patterns or pitfalls to avoid when writing LINQ queries?
+Explain how you would handle complex filtering and conditional logic in LINQ queries using lambda expressions.
+Discuss the use of GroupBy and aggregation functions (such as Sum, Average, Count) in LINQ queries.
+How do you handle NULL values and exceptions in LINQ queries effectively?
+Can you provide an example of using LINQ to perform data manipulation operations, such as insertions, updates, and deletions?
+Discuss the benefits and limitations of using LINQ over traditional SQL queries.
+Explain the concept of query composition and how you would use it to build dynamic queries with LINQ.
+How do you handle complex inheritance and polymorphic scenarios in LINQ queries?
+Discuss the integration of LINQ with other technologies, such as Entity Framework Core, ASP.NET Core, and WCF (Windows Communication Foundation).
