@@ -1,0 +1,20 @@
+Explain the difference between EF Core and EF6.
+What are the new features introduced in EF Core that were not available in EF6?
+How do you handle database migrations in EF Core? Can you explain the migration workflow?
+What is database seeding in EF Core, and how do you implement it?
+Discuss the benefits and limitations of using code-first versus database-first approach in EF Core.
+How do you configure relationships between entities in EF Core? Discuss various types of relationships.
+Explain what is meant by eager loading, lazy loading, and explicit loading in EF Core. When would you use each?
+What is the Repository pattern, and how do you implement it with EF Core?
+Discuss different strategies for optimizing performance in EF Core applications.
+How do you handle complex query scenarios in EF Core where the LINQ queries become inefficient?
+What is meant by entity state in EF Core, and how does it affect database operations?
+Can you explain how to use stored procedures with EF Core?
+Discuss the concept of transactions in EF Core. How do you manage transactions across multiple database operations?
+What is meant by concurrency handling in EF Core? How do you implement optimistic concurrency control?
+Explain how you would perform unit testing for EF Core applications. What are some common challenges you may encounter?
+How do you handle soft deletes (logical deletes) in EF Core?
+Discuss the limitations of EF Core in terms of database provider support, and how you would mitigate those limitations.
+Can you explain the concept of shadow properties in EF Core? How are they useful?
+What are Owned Entity Types in EF Core, and when would you use them?
+Discuss the options available for handling database migrations in a production environment.
