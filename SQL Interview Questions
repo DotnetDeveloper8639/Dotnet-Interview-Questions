@@ -1,0 +1,20 @@
+Explain the differences between table variables and temporary tables in MSSQL. When would you use each, and what are their performance implications?
+Discuss the use of Common Language Runtime (CLR) integration in MSSQL. When would you use CLR stored procedures, functions, or triggers?
+Explain the purpose of Full-Text Search in MSSQL. How do you implement and optimize Full-Text Search functionality?
+Discuss the use of XML data type in MSSQL. What are its advantages and limitations?
+Explain the concept of database mirroring in MSSQL. How does it ensure high availability, and what are its prerequisites and limitations?
+What is AlwaysOn Availability Groups in MSSQL? How does it differ from database mirroring, and when would you use it?
+Discuss the differences between synchronous and asynchronous replication in MSSQL. When would you use each, and what are their trade-offs?
+Explain the concept of SQL Server Integration Services (SSIS). How do you use SSIS for ETL (Extract, Transform, Load) processes?
+Discuss the options available for monitoring and performance tuning in MSSQL, including SQL Server Profiler, Dynamic Management Views (DMVs), and Extended Events.
+What is Columnstore Index in MSSQL? How does it differ from traditional rowstore indexes, and when would you use it?
+Discuss the options available for high availability and disaster recovery in MSSQL, including log shipping, database snapshots, and failover clustering.
+Explain the concept of database maintenance plans in MSSQL. How do you create and schedule maintenance tasks such as backups, index rebuilds, and statistics updates?
+What are execution plans in MSSQL, and how do you analyze them to optimize query performance?
+Discuss the use of In-Memory OLTP (Online Transaction Processing) in MSSQL. When would you use memory-optimized tables and natively compiled stored procedures?
+Explain the concept of database encryption in MSSQL. How do you implement transparent data encryption (TDE) and column-level encryption?
+Discuss the options available for scaling out MSSQL databases, including sharding, federated databases, and distributed transactions.
+What is PolyBase in MSSQL? How does it enable querying data across relational and non-relational sources such as Hadoop and Azure Blob Storage?
+Explain the concept of row-level security in MSSQL. How do you implement and manage security policies to restrict access to specific rows of data?
+Discuss the use of SQL Server Profiler and Extended Events for monitoring and troubleshooting performance issues in MSSQL.
+What are the options available for migrating databases to Azure SQL Database or Azure SQL Managed Instance? Discuss considerations and best practices for migration planning and execution.
