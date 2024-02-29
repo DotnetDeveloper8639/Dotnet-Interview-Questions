@@ -1,0 +1,41 @@
+Explain the concept of middleware in ASP.NET Core. How do you implement custom middleware, 
+and what are some common use cases?
+
+Discuss the differences between ASP.NET Core MVC and ASP.NET Core Web API. When would you choose one over the other, 
+and how do you combine them in a single application?
+
+What is dependency injection, and how is it used in .NET Core applications? Discuss the built-in container and third-party options like Autofac or Ninject.
+
+Explain the role of the ConfigureServices and Configure methods in the Startup class of an ASP.NET Core application. What tasks are typically performed in each method?
+
+Discuss the benefits and limitations of using Entity Framework Core for data access in .NET Core applications. How do you optimize performance when working with EF Core?
+
+What are Tag Helpers in ASP.NET Core MVC? Provide examples of how you use them in your projects.
+
+Explain the concept of Razor Pages in ASP.NET Core. How do they differ from traditional MVC controllers and views, and when would you choose one over the other?
+
+Discuss the use of JWT (JSON Web Tokens) for authentication and authorization in .NET Core Web API applications. How do you implement JWT authentication, and what are its benefits?
+
+What are the benefits and limitations of using SignalR in .NET Core applications? Provide examples of real-world scenarios where SignalR is useful.
+
+Explain how you handle cross-cutting concerns such as logging, caching, and exception handling in .NET Core applications. Discuss design patterns and frameworks commonly used for these concerns.
+
+Discuss the use of Health Checks in ASP.NET Core applications. How do you implement custom health checks for different components of your application?
+
+What is gRPC, and how does it differ from traditional RESTful APIs? How do you implement gRPC services in .NET Core?
+
+Explain the concept of background tasks and hosted services in .NET Core applications. How do you implement long-running background processes?
+
+Discuss the use of Docker and containerization for deploying .NET Core applications. How do you containerize an ASP.NET Core application, and what are the benefits?
+
+Explain the concept of microservices architecture. How do you design and implement microservices using .NET Core and related technologies?
+
+Discuss the use of configuration providers in .NET Core applications. How do you manage configuration settings for different environments?
+
+What is the purpose of the IHostedService interface in .NET Core, and how do you use it to create background tasks and services?
+
+Explain the concept of distributed caching in .NET Core applications. How do you implement distributed caching using frameworks like Redis or Memcached?
+
+Discuss the use of Azure services with .NET Core applications. How do you integrate Azure Blob Storage, Azure SQL Database, or Azure Service Bus into your applications?
+
+Explain the concept of serverless computing. How do you build serverless applications using Azure Functions or AWS Lambda with .NET Core?
