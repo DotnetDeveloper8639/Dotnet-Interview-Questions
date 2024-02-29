@@ -1,0 +1,20 @@
+Explain the architecture of a typical .NET Core Web API application.
+Discuss the differences between ASP.NET Core MVC and ASP.NET Core Web API. When would you choose one over the other?
+How do you handle versioning in a .NET Core Web API? Discuss different approaches.
+Explain the concept of middleware in ASP.NET Core. Provide examples of custom middleware you've implemented.
+Discuss the benefits and limitations of using attribute routing versus convention-based routing in ASP.NET Core Web API.
+How do you handle cross-origin resource sharing (CORS) in a .NET Core Web API?
+What is dependency injection, and how is it used in ASP.NET Core Web API? Discuss the built-in container and third-party options.
+Explain the role of action filters in ASP.NET Core Web API. When would you use them, and provide examples?
+Discuss authentication and authorization options available in ASP.NET Core Web API. Compare JWT, OAuth, and cookie-based authentication.
+How do you handle validation of incoming requests in a .NET Core Web API? Discuss data annotations, FluentValidation, and custom validation logic.
+Explain how you would handle logging and error handling in a .NET Core Web API application.
+Discuss strategies for optimizing performance in a .NET Core Web API, including caching, response compression, and asynchronous programming.
+What are the different content negotiation strategies available in ASP.NET Core Web API? How do you implement them?
+Explain the concept of model binding in ASP.NET Core Web API. How does it work, and what are its limitations?
+Discuss the use of action results in ASP.NET Core Web API controllers. When would you return different types of action results, such as IActionResult, JsonResult, or ActionResult<T>?
+How do you handle file uploads in a .NET Core Web API? Discuss options for handling large files and streaming uploads.
+Explain the role of HttpClient and HttpClientFactory in making HTTP requests from a .NET Core Web API.
+Discuss the use of background tasks and hosted services in ASP.NET Core Web API applications. Provide examples of scenarios where you would use them.
+What are health checks in ASP.NET Core Web API, and how do you implement them?
+Discuss deployment strategies for .NET Core Web API applications, including containerization, Azure App Service, and serverless options like Azure Functions.
