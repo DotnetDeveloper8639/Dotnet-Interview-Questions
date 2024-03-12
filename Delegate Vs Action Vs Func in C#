@@ -1,1 +1,17 @@
+Delegate:
+---------
+Delegate is a base class for all the delegates.
+Delegates are commonly used for call back functions or event handlings.
 
+Action:
+----------
+Action is a predefined generic delegate that will not retun any value as output.
+
+Action will accept upto 16 input of different datatypes. The return type of Action delegate is 'void'.
+
+Func:
+-------
+Func is also a predefined generic delegate type which will return value as output.
+It also accept 16 inputs with different data types and retun one output.
+
+Example: Func<int, int, int> myFunc = (x, y) => x + y;
