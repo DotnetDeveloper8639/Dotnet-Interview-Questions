@@ -1,13 +1,59 @@
-Explain the difference between LINQ to Objects, LINQ to SQL, and LINQ to Entities.
-What are deferred execution and immediate execution in LINQ? Provide examples of each.
-How does lazy loading relate to LINQ? Can you explain how it works and potential pitfalls?
-Discuss the differences between IQueryable and IEnumerable interfaces in LINQ. When would you use each?
-What is method chaining in LINQ, and how does it affect query execution?
-How do you handle complex joins and groupings in LINQ queries? Can you provide examples?
-Explain what query optimization techniques you use in LINQ to improve performance.
-Discuss the role of anonymous types in LINQ queries. Provide an example of when you would use them.
-Explain the concept of expression trees in LINQ. How are they used internally, and what benefits do they provide?
-How do you handle paging and sorting in LINQ queries efficiently?
+1) Explain the difference between LINQ to Objects, LINQ to SQL, and LINQ to Entities.
+2) What are deferred execution and immediate execution in LINQ? Provide examples of each.
+3) How does lazy loading relate to LINQ? Can you explain how it works and potential pitfalls?
+4) Discuss the differences between IQueryable and IEnumerable interfaces in LINQ. When would you use each?
+5) What is method chaining in LINQ, and how does it affect query execution?
+
+Ans:- Linq provides set of extension methods form a query. It will follow an order to execute the queries.
+
+var result = dbContext.Customers
+                        .Where(c => c.Age > 18)
+                        .OrderBy(c => c.LastName)
+                        .Select(c => new { Name = c.FirstName + " " + c.LastName });
+
+6) How do you handle complex joins and groupings in LINQ queries? Can you provide examples?
+
+  Ans:-var query = from customer in db.Customers
+            join order in db.Orders
+            on customer.CustomerID equals order.CustomerID into customerOrders
+            select new
+            {
+                CustomerID = customer.CustomerID,
+                CustomerName = customer.CustomerName,
+                TotalOrders = customerOrders.Count(),
+                TotalOrderAmount = customerOrders.Sum(o => o.OrderAmount)
+            };
+
+7) Explain what query optimization techniques you use in LINQ to improve performance.
+
+Ans:- I personally used o improve query perfonce.
+Paging the result using skip and take.
+Used filters like where etc.
+Avoided fetching unneccessary columns.
+Avoided complex calculations
+Reduced unncessary joins.
+Cached frequently used dat.
+
+8) Discuss the role of anonymous types in LINQ queries. Provide an example of when you would use them.
+
+Ans:-Anonymous types are used to create set of readonly properties.
+In linq we will create these anonymous types without using DTO classes.
+let totalCalHrs = (from service in _context.TblServices.Where(s => s.project_id == p.id)
+                   join sm in _context.TblServiceMachines on service.id equals sm.service_id
+                   join hrs in _context.TblMachineHour on sm.id equals hrs.service_machine_id
+                   select new
+                   {
+                       CalculatedHours = hrs.calculated_hours
+                   }).Sum(s => s.CalculatedHours)
+
+9) Explain the concept of expression trees in LINQ. How are they used internally, and what benefits do they provide?
+
+In LINQ, expression trees represent code in the form of data structures rather than executable code. 
+They are used internally by LINQ providers, 
+such as Entity Framework or LINQ to SQL, to translate LINQ queries into a format that can be understood and executed by a data source, 
+such as a database.
+
+10) How do you handle paging and sorting in LINQ queries efficiently?
 Discuss the concept of projections in LINQ and their importance in optimizing query performance.
 What are some common anti-patterns or pitfalls to avoid when writing LINQ queries?
 Explain how you would handle complex filtering and conditional logic in LINQ queries using lambda expressions.
